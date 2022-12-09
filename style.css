@@ -1,0 +1,79 @@
+body {
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+    background-color: rgb(215, 215, 215);
+}
+
+#container {
+    border: 1px solid rgb(216, 216, 216);
+    width: 400px;
+    margin: 50px auto;
+    border-radius: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgb(236, 236, 236);
+}
+
+img {
+    display: block;
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.image p {
+    border-bottom: 1px solid rgb(216, 216, 216);
+    padding: 0 0 10px 0;
+    margin: 10px 10px 0 10px;
+    font-size: small;
+}
+
+div.score {
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+.score h1 {
+    margin-bottom: -15px;
+}
+
+.score p {
+    font-size: small;
+}
+
+.score label {
+    font-weight: 700;
+}
+
+div.buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.buttons button {
+    margin: 0 -2px;
+    border: none;
+    padding: 10px 0;
+    width: calc(399px/3);
+    color: white;
+    border-radius: 5px;
+}
+
+.buttons .play1 {
+    background-color: rgb(14, 193, 65);
+}
+
+.buttons .play2 {
+    background-color: rgb(14, 124, 193);
+}
+
+.buttons .reset {
+    background-color: rgb(193, 14, 14);
+}
+
+.buttons button:hover {
+    opacity: 0.8;
+}
